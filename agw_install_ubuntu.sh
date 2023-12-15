@@ -167,7 +167,7 @@ if [ "$MAGMA_INSTALLED" != "$SUCCESS_MESSAGE" ]; then
   rm -rf $AGW_INSTALL_CONFIG
   rm -rf /home/$MAGMA_USER/build
   
-#  reboot
+  reboot
 else
   echo "Magma already installed, skipping.."
 fi
